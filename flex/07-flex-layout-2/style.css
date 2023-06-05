@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-grow: 1;
   flex-direction: row;
+  background-color: rgb(241, 233, 218);
 }
 .footer {
   display: flex;
@@ -35,7 +36,7 @@ body {
 .sidebar {
   width: 300px;
   flex-shrink: 0;
-  background: royalblue;
+  background: #93C572;
   box-sizing: border-box;
   padding: 16px;
 
@@ -63,7 +64,7 @@ a{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-
+  background-color: lavender;
   width: 300px;
   padding: 16px;
   margin:16px
