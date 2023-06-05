@@ -6,10 +6,35 @@ img {
   width: 100px;
   height: 100px;
 }
+.vegetables{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+.text{
+  flex-wrap: wrap;
+}
+.chilli, .eggplant, .lavender, .purple{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+img{
+  align-self: center;
+}
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* do not edit this footer */
